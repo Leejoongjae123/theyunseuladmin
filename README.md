@@ -49,11 +49,8 @@ npm run build
 
 ## 환경 변수
 
-`.env.local` 파일에 다음 환경 변수를 설정해야 합니다:
+`.env.local` 파일에 SUPABASE 관련 환경변수를 설정해줘야합니다.
 
-```
-DATABASE_URL=your-database-url
-```
 
 ## API 엔드포인트
 
