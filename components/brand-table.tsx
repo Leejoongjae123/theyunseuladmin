@@ -129,6 +129,7 @@ export default function BrandTable() {
                   setCurrentPage(1);
                 }}
               />
+              
             </div>
             <Dialog open={isAddModalOpen} onOpenChange={setIsAddModalOpen}>
               <DialogTrigger asChild>
