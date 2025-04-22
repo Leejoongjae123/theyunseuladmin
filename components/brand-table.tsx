@@ -120,7 +120,7 @@ export default function BrandTable() {
       <div className="flex-1 overflow-auto">
         <div className="space-y-4">
           <div className="flex justify-between items-center">
-            <div className="w-1/3 p-2">
+            <div className="w-full p-2">
               <Input
                 placeholder="카테고리, 브랜드명, 브랜드코드 검색"
                 value={searchQuery}
