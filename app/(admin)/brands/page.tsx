@@ -1,9 +1,11 @@
+import BrandTable from "@/components/brand-table";
+
 export default function BrandsPage() {
   return (
-    <div>
+    <div className="w-full">
       <h1 className="text-2xl font-bold mb-4">브랜드 리스트</h1>
-      <div className="bg-white rounded-lg shadow p-4">
-        <p>브랜드 리스트가 여기에 표시됩니다.</p>
+      <div className="bg-white rounded-lg">
+        <BrandTable />
       </div>
     </div>
   );
