@@ -30,8 +30,8 @@ export default async function Login(props: { searchParams: Promise<Message> }) {
           placeholder="Your password"
           required
         />
-        
-        <SubmitButton pendingText="Signing In..." formAction={signInAction}>
+
+        <SubmitButton pendingText="로그인 중중..." formAction={signInAction}>
           로그인
         </SubmitButton>
         <FormMessage message={searchParams} />
