@@ -14,6 +14,10 @@ const sidebarItems = [
     title: "브랜드 리스트",
     href: "/brands",
   },
+  {
+    title: "상품 리스트",
+    href: "/products",
+  },
 ];
 
 export function AdminSidebar() {
